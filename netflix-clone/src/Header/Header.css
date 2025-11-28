@@ -1,0 +1,68 @@
+/* NAVBAR CONTAINER */
+.navbar {
+  width: 100%;
+  height: 80px;
+  background-color: #111;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+/* LEFT SECTION */
+.left-section {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.logo {
+  height: 40px;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+.nav-links li {
+  color: #e5e5e5;
+  font-size: 14px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.nav-links li:hover {
+  color: #fff;
+}
+
+/* RIGHT SECTION */
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.icon {
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px !important;
+  transition: opacity 0.3s ease;
+}
+
+.icon:hover {
+  opacity: 0.7;
+}
+
+/* REMOVED BADGE – CLEAN NOTIFICATION ICON */
+.notification {
+  position: relative;
+  display: flex;
+  align-items: center;
+}

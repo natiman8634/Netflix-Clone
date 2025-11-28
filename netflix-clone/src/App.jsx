@@ -1,8 +1,13 @@
 import React from 'react'
+import './App.css'
+import Home from './pages/Home/Home.jsx'
 
 function App() {
   return (
-    <div>Hellow</div>
+    <div className="App">
+    <Home />
+    
+    </div>
   )
 }
 
