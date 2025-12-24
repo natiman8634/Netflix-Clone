@@ -1,14 +1,16 @@
 import React from 'react'
 import Header from '../../components/Header/header'
 import Footer from '../../components/Footer/footer'
-function Home() {
+import Banner from '../../components/Banner/Banner'
+function home() {
   return (
     <>
     <Header />
+    <Banner />
     <Footer />
     </>
 
   )
 }
 
-export default Home
+export default home
