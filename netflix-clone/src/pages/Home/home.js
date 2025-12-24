@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../../components/Header/header'
 import Footer from '../../components/Footer/footer'
-function home() {
+function Home() {
   return (
     <>
     <Header />
@@ -11,4 +11,4 @@ function home() {
   )
 }
 
-export default home
+export default Home

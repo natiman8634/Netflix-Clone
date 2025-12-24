@@ -3,7 +3,7 @@ import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import "./footer.css";
-function footer() {
+function Footer() {
   return (
      <div className="footer_outer_container">
     <div className="footer_inner_container">
@@ -56,4 +56,4 @@ function footer() {
   )
 }
 
-export default footer
+export default Footer
